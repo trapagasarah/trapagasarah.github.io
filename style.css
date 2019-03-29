@@ -46,12 +46,11 @@ div {
 }
 h1 {
     font-size: 6em;
+    text-align: center;
     margin: 0;
 }
 .me h1 {
     color: rgba(255, 255, 255, .6);
-    
-
 }
 .about h1 {
     color: black;
