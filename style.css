@@ -2,7 +2,7 @@ body {
     background-image: url("forest-pic3.jpg");
     background-size: cover;
     font-family: 'Indie Flower', cursive;
-    margin: 0 .5em;
+    margin: 0;
 }
 nav {
     border-bottom: .2em solid rgb(186, 144, 94);
@@ -11,10 +11,12 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url('tree-bark-nature-texture.jpg')
+    background-image: url('tree-bark-nature-texture.jpg');
+    background-size: cover;
 }
 main {
     width: 100vw;
+
 }
 img {
     width: 35%;
