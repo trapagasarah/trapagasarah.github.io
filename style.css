@@ -66,8 +66,19 @@ p {
     text-align: center;
 }
 footer {
+    display: flex; flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100vw;
     height: 5em;
     border-top: .2em solid rgb(186, 144, 94);
     background-image: url('roots.jpg');
+}
+footer a {
+    text-align: center;
+    width: 5em;
+    height: 1.5em; 
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
