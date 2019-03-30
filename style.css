@@ -16,12 +16,12 @@ nav {
 }
 main {
     width: 100vw;
-
+    display: flex;
+    flex-direction: column;
 }
 img {
-    width: 35%;
+    width: 40%;
     border-radius: 7em;
-    
 }
 .block {
     display: flex;
@@ -45,13 +45,15 @@ div {
     border-radius: 6em;
     background-color: rgba(255, 255, 255, .3);
     padding-top: 3em;
+    padding-bottom: 2em;
+    margin-top: 1em;
 }
 h1 {
-    font-size: 6em;
     text-align: center;
     margin: 0;
 }
 .me h1 {
+    font-size: 6em;
     color: rgba(255, 255, 255, .6);
 }
 .about h1 {
@@ -85,4 +87,24 @@ footer a {
 }
 a:hover {
     color: rgb(138, 154, 91)
+}
+@media (max-width: 500px) {
+    .me h1 {
+        font-size: 3em;
+    }
+    .about h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .block {
+        font-size: 1.5em;
+    }
+    footer a {
+        font-size: 1.5em;
+    }
+    img {
+        width: 100%;
+    }
 }
