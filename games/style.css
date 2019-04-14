@@ -4,6 +4,8 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    background-size: cover;
+    height: 60em;
     justify-content: space-evenly;
     font-family: 'Quicksand', sans-serif; 
 }
