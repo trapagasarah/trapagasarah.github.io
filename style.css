@@ -19,6 +19,7 @@ main {
     background-image: url("forest-pic3.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 img {
     width: 40%;

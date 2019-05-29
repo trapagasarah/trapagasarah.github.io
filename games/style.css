@@ -5,6 +5,7 @@ body{
     align-items: center;
     width: 100vw;
     background-size: cover;
+    background-attachment: fixed;
     height: 60em;
     justify-content: space-evenly;
     font-family: 'Quicksand', sans-serif; 
