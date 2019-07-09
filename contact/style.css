@@ -1,0 +1,50 @@
+body{ 
+    background-image: url('mtnsandchair.jpg');
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    color: rgb(103, 82, 70);
+    height: 60em;
+    justify-content: space-evenly;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+h1{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+a{
+    color: rgb(103, 82, 70);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(137, 143, 85);
+
+}
+
+.button{
+    color: rgb(103, 82, 70);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.button:hover{
+   color: rgb(137, 143, 85);
+}
+
+button:hover{
+    background-color: rgb(103, 82, 70);
+}
+
+button{
+    background-color: rgb(137, 143, 85);
+    border-radius: .5em;
+    
+}
