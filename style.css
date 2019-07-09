@@ -53,10 +53,18 @@ div {
 h1 {
     text-align: center;
     margin: 0;
+    
 }
 .me h1 {
     font-size: 3em;
-    color: rgba(255, 255, 255, .6);
+    /* color: rgba(69, 82, 25, .6); */
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 .about h1 {
     color: black;
@@ -71,7 +79,8 @@ p {
     text-align: center;
 }
 footer {
-    display: flex; flex-direction: row;
+    display: flex; 
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
