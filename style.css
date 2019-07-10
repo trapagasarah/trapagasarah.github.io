@@ -45,7 +45,7 @@ div {
 .about {
     display: flex;
     border-radius: 6em;
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .5);
     padding-top: 3em;
     padding-bottom: 2em;
     margin-top: 1em;
